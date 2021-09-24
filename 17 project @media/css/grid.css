@@ -1,0 +1,409 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height:100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(6, 141, 231);
+    border: 4px solid rgb(233, 106, 3);
+
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;    //mouse vha pe lekar jane ke bad show hoga kuch tb courser use karte hy//
+    margin: 30px 0;
+}
+
+.icon{
+    width: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(26, 18, 7);
+    font-size: 14px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(243, 100, 4);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.c1{
+    flex-basis: 40%;  // use karte hy flix ka leng rakhne ke leye __ kitna lamba hoga //
+    position: relative;
+    margin-left: 50px;
+    
+
+}
+
+.c1 h2{
+    font-size: 54px;
+
+}
+
+.c1 h3{
+    font-size: 30px;
+    color: rgb(20, 107, 107);
+    font-weight: 100;        /kitna dark dikhe uske liye use karte hy 
+    margin:20px 0 10px ;
+}
+
+
+.c1 p{
+    font-size: 16px;
+    color:rgb(13, 199, 143) ;
+    font-weight: 100;
+
+}
+
+.c1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+    color: rgb(230, 109, 10);
+
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(15, 14, 14);
+    background: linear-gradient(to right,red,orange  );
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img{
+    width:50px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  // space1 ke le use kiya
+
+}
+
+.c1::after{
+    content: '';
+    width: 10px;
+    height: 40%;
+    background:linear-gradient(to right,rgb(9, 200, 248),rgb(26, 25, 23)  );
+    position: absolute;
+    left: 80px; 
+    top:100px;
+}
+.c2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.c2 .controller{
+    width: 90%; 
+    border-radius: 30px;
+}
+
+.color_box{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background:linear-gradient(rgb(235, 90, 7),rgb(189, 128, 5)  );
+    border-radius: 20px 0 0 20px;
+    height:100% ;
+    width:40% ;
+    z-index:-1 ;
+    transform:translateX(200px) ;
+}
+
+.add_btn img{
+    width: 35px;
+    margin-bottom:5px ;
+
+}
+
+.add_btn{
+    text-align: center;
+    color: rgb(187, 77, 4);
+    cursor: pointer;
+
+}
+
+
+#part2{
+    width: 100%;
+    min-height:100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.course h1{
+    width: 100%;
+    color: rgb(75, 71, 68);
+}
+.course h2 a{
+        text-decoration: none;
+        color: rgb(17, 134, 138);
+}
+
+#part2_1{
+    width: 100%;
+    border-radius: 4%;
+}
+.course h3{
+    color: rgb(8, 8, 8);
+    margin-bottom: 5px;
+}
+
+.devloper{
+    width: 100%;
+
+}
+.devloper h1{
+    color: rgb(71, 66, 61);
+}
+.devloper h2 a{
+    text-decoration: none;
+    color: rgb(25, 94, 99);
+}
+.devloper h3{
+    color: rgb(12, 12, 12);
+    margin-top: 2%;
+}
+
+
+.pic{
+    
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:200px 200px 200px ;
+    column-gap:2% ;
+    row-gap: 2%;
+
+}
+.pic img{
+    width: 100%;
+    height: 200px;
+    
+}
+#work{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    color: rgb(128, 18, 45);
+/* background-color:rgb(243, 121, 7);     */
+
+}
+footer{
+    width: 100%;
+    height:300px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 4%;
+    background: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1{
+    width:100%;
+    height:30%;
+}
+
+.s1 h4{
+    color: rgb(240, 102, 4);
+    font-size:2vw ;
+}
+.s1 p{
+    color: rgb(248, 248, 248);
+}
+
+.s2{
+    width:100%;
+    height:30%;
+    margin-left:6%;
+}
+
+.s2 h4{
+    color: rgb(248, 136, 7);
+
+}
+
+.s2 ul li a{
+    color: rgb(238, 232, 230);
+    text-decoration: rgb(224, 218, 202);
+}
+
+.s3{
+    width:100%;
+    height:30%;
+    margin-right:4%;
+
+}
+.s3 h4{
+        color: rgb(253, 138, 7);
+}
+.s3 p{
+    color: rgb(253, 248, 246);
+}
+
+.s4{
+    width:100%;
+    height:30%;
+    margin-right:5%;
+}
+
+.s4 h4{
+    color: rgb(231, 190, 127);
+}
+.s4 p{
+    color: rgb(248, 246, 246);
+}
+
+#lst{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    
+    
+}
+
+.lst1{
+    color: rgb(226, 98, 12);
+    margin-right: 10%;
+}
+
+
+
+
+.f4_link{
+    /* display: flex;
+    justify-content:; */
+}
+.f4_link a{
+    color: white;
+    text-decoration:none;
+    
+}
+
+
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgb(10, 10, 10),rgb(5, 167, 189)  ); 
+        position:absolute;
+        transition: top 2s ease;
+        text-align: center;
+        left: 0%;
+        top:70px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+    nav ul li a{
+        color:white;
+    }
+    .icon{
+     display: block; //pahle vale me none kr dene ka dusre vale me block
+
+    }
+        .menu_list{
+        overflow: hidden;
+        transition: 0.5s;
+        }
+        .row{
+            flex-direction:column-reverse ;
+        }
+        .c1::after{
+            margin-left:0;
+            margin-top:60%;
+        }
+        .c2{
+            flex-basis: 100%;
+            margin-bottom:70px ;
+        }
+        .c2 .controller{
+            width: 77%;
+
+        }
+        .color_box{
+            transform: translateX(240px);
+        }
+        .c1{
+            flex-basis: 100%;
+        }
+        .c1 h2{
+            font-size: 35px;
+        }
+        .c1 h3{
+            font-size:2 px;
+        }
+.add_btn{
+    margin-left: 30px;
+}
+.add_btn p{
+    font-size: 19px;
+
+}
+
+}

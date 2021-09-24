@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#beach_1{
+    background-image: url(../images/aman.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}   
+
+button{
+    width: 25%;
+    display:block ;
+    margin-right: auto;
+    margin-left: auto;
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 20px;
+    background: inherit;
+    height: 50px;
+    font-size: 30px;
+    
+
+}
+
+button:hover {
+    background: brown;
+    border: 1px solid white;
+    color: white;
+}
+
+#aman_1{
+    color: white;
+    background-color: rgba(138, 25, 25, 0.651);
+}
+
+#aman_2{
+    color: rgba(122, 10, 10, 0.575);
+    background-color:white ;
+}
+
+#aman_3{
+    display: flex;
+}
+.aman_4{
+    color: white;
+    background-color: rgba(138, 25, 25, 0.651);
+
+
+}
+
+.aman_5{
+    color: rgb(231, 50, 50);
+    background-color: rgba(243, 237, 237, 0.651);
+
+}
+
+.aman_6{
+    color: white;
+    background-color: rgba(138, 25, 25, 0.651);
+
+}
+
+
+
+h1{
+    
+    color: rgba(187, 17, 17, 0.87);
+}
+
+#para_1{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+

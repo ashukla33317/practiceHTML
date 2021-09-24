@@ -1,0 +1,57 @@
+h1{
+    color: rgb(30, 115, 172);
+    text-align: center;
+}
+
+h2{
+    color: green;
+    text-align: center;
+
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+h4{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.color{
+    color: rgb(88, 47, 47);
+    margin-right: 40%;
+    margin-left: 0%;
+}
+
+p{
+    margin-left: 3%;
+    color: darkgreen;
+}
+
+a{
+    color:rgb(76, 16, 243) ;
+}
+
+.color_1{
+    color: rgb(16, 112, 221));
+}
+
+#hedline{
+    background-origin: padding-box;
+    background-color: cadetblue;
+}
+
+body{
+    
+    
+
+}
+

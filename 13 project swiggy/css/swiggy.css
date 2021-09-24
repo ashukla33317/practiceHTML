@@ -1,0 +1,188 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: cover;
+
+}
+
+#div_1{
+    width: 100%;
+    display: grid;
+    grid-template-columns:55% 45%;
+}
+#f1{
+    display: flex;
+
+}
+
+#f1 .f2{
+    margin-top: 10%;
+    margin-left:50% ;
+}
+
+#f1 .f2 a{
+    text-decoration: none;
+    color: black;
+    width: 30%;
+}
+
+#f1 .f2 a:hover{
+    background: rgb(248, 245, 245);
+    color: rgb(224, 68, 6);
+}
+
+#f1 .f2 button{
+    width: 70px;
+    height:50% ;
+    color: white;
+    background-color: black;
+}
+
+#f2{
+    margin-left: 7%;
+}
+
+#f2 h3{
+    color: rgb(126, 109, 109);
+}
+
+#f3 input{
+    width: 60%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+#f3 button{
+    width: 20%;
+    height: 40px;
+    color:white ;
+    background-color: rgb(240, 130, 6);
+    font-size: 15px;
+}
+
+#f3 p{
+    margin-top: 5%;
+    margin-left: 5%;
+    color:rgb(143, 125, 125) ;
+}
+
+#f3 a{
+    margin-left:2%;
+    color: black;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+#div_1 .d2 img{
+    width:490px;
+    height: 100%;
+
+}
+
+#div2{
+    width: 100%;
+    background-color:rgb(49, 27, 11);
+    display:flex;
+
+}
+#div2 .a1 img{
+    width: 100px;
+    height: 45%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+#div2 .a1 h3{
+    margin-left: 2%;
+    color: white;
+
+}
+#div2 .a1 h4{
+    color: rgb(218, 202, 182);
+}
+
+#div3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#div3 h1{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+#div3 h4{
+    color:rgb(65, 60, 60);
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#div3 img{
+    margin-left: 10%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    display:flex;
+}
+
+footer .n1{
+    margin: 6%;
+}
+
+footer h4{
+    color: tomato;
+}
+
+footer a{
+    text-decoration:none;
+    color: white;
+}
+
+footer .n2{
+    margin:6% ;
+}
+
+footer .n3{
+    margin:6% ;
+}
+
+footer .n4{   
+    margin-top: 10%;
+}
+
+#f4{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px;
+    background-color: black;
+    border: 2px solid white;
+
+}
+#f4 img{
+    padding: 3%;
+}
+
+#f4 h1{
+    color: white;
+    font-size: 150%;
+    padding: 3%;
+}
+.f4_link{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.f4_link a{
+    color: white;
+    text-decoration:none;
+    
+}

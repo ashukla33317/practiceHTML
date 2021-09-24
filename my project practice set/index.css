@@ -1,0 +1,239 @@
+*{
+    padding:0% ;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    min-height:100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(43, 49, 51);
+}
+
+ul{
+    display:flex;
+    color: rgb(3, 3, 3);
+    margin-left: 10%;
+
+}
+li{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 30px;
+    font-size: 3vw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(188, 255, 2);
+}
+ul li a:hover{
+    color: darkgoldenrod;
+    background-color: rgba(40, 11, 78, 0.466);
+    padding: 5px;
+}
+
+.nav_1{
+  width: 100%;
+      display:inline-block;
+}
+.image{
+    width: 200px;
+}
+
+.nav_1{
+    overflow: hidden;
+    background-color: rgb(10, 226, 176);
+    font-family: Arial;
+  }
+  .btn{
+    display: none;
+  }
+  
+  /* Links inside the navbar */
+  .nav_1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: fixed;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .nav_1 a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(128, 111, 18);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #c6db03;
+    min-width: 101px;
+    box-shadow: 0px 8px 16px 0px rgba(184, 61, 61, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown_content a {
+    float: none;
+    color: rgb(230, 103, 30);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown_content a:hover {
+    background-color: rgb(13, 226, 56);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown_content {
+    display: block;
+  }
+
+
+.btn_21{
+  display: flex;
+  justify-content: flex-end;
+}  
+.btn_21 input{
+  font-size: 2vw;
+}
+
+
+.btn_2{
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color:rgb(56, 50, 50);
+  color: rgb(0, 255, 191);
+  font-size: 2vw;
+  border-radius: 10px;
+}
+
+.main_1{
+  width: 100%;
+  display: flex;
+  margin-top: 3%;
+}
+
+.main_1 h1{
+  color: #131312;
+}
+.main_1 p{
+  color: rgb(79, 82, 77);
+  font-size: 2.5vw;
+}
+.main_1 img{
+  width: 300x;
+  cursor: pointer;
+}
+
+.main_2{
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+.main_2 h2{
+  background-color: rgb(38, 36, 39);
+  color: #c6db03;
+}
+
+.main_2 button{
+  color: rgb(255, 123, 0);
+  background-color: black;
+  width: 30%;
+  height: 40px;
+}
+
+.main_3{
+  width: 100%;
+  margin-top: 2%;
+}
+.main_3 h1{
+  color: #070707;
+}
+
+.main_3 h3{
+  color: rgb(51, 47, 47);
+  font-size: 1.5vw;
+}
+
+.main_4{
+  width:100%;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.main_4 .box{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: #ff0;
+  margin: 10px;
+  display: inline-block;
+
+
+}
+
+
+@media only screen and (max-width:750px){
+  .navbar ul li{
+      height: 100vh;
+      position:fixed ;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction:column;
+      justify-content:center ;
+      align-items: center;
+      background: rgb(10, 10, 10);
+      transition: top 2s ease;
+      display:none ;
+
+  }
+
+
+
+    
+  
+  
+}

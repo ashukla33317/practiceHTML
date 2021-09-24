@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 4%;
+}
+
+#canvas{
+    color: rgb(65, 28, 196);
+    background-color: rgb(170, 197, 17);
+    border-radius: 50%;
+}

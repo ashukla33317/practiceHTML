@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(123, 208, 247, 0.842);
+}
+
+#heding1{
+    font-size:8vh ;
+    text-align:center;
+
+}
+
+form{
+    background-color:whitesmoke ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#heding2{
+    font-size:3vh ;
+    text-align: center;
+    
+}
+
+.form_div{
+    display:flex;
+    margin-top: 5%;
+    width:100%;
+
+
+
+}
+ 
+.label{
+    width:40%;
+    text-align: right;
+    margin-right: 5%;
+
+}
+
+input{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.input{
+    width:40%;
+    margin-left:5% ;
+    text-align: left;
+}
+
+button{
+    align-items: center;
+    color:white;
+    margin-left: 45%;
+    font-size:20px ;
+    background-color: rgba(45, 166, 223, 0.842);
+    width:13%;
+    height:15%;
+    border-radius: 6px;
+    border:none;
+    margin-top: 3%;
+}
+
+.radio{
+    margin:0;
+}

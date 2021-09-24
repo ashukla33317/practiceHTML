@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; }
+
+/* #parent{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas:"one one "
+                        "two three"
+                        "four three "
+                        "four five "
+                        "six seven ";
+    row-gap: 10px;     
+    column-gap: 10px;               
+} 
+
+.element{
+    border:2px solid green;
+    background-color: rgb(255, 0, 221);
+ }
+
+#parent #one:nth-child(1){
+    grid-area: one;
+}
+
+
+#parent #two:nth-child(2){
+    grid-area:two;
+}
+
+
+#parent #three:nth-child(3){
+    grid-area: three;
+}
+
+#parent #four:nth-child(4){
+    grid-area: four;
+}
+
+#parent #five:nth-child(5){
+    grid-area:five;
+}
+
+#parent #six:nth-child(6){
+    grid-area: six;
+}
+
+#parent #seven:nth-child(7){
+    grid-area: seven;
+}
+
+@media screen and (max-width:900px) {
+    #parent{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "one"
+                            "two"
+                            "three"
+                            "four"
+                            "five"
+                            "six"
+                            "seven";
+    }
+    
+} */
+
+#parent{
+     display:grid;
+     grid-template-columns:50% 50%;
+     grid-template-rows: 100px 100px 100px 100px 100px;
+     grid-template-areas: "one one "
+                "two three"
+                "four three "
+                "four five "
+                "six seven ";
+    row-gap: 20px;
+    column-gap: 20px;            
+ }
+
+.element{
+    color: rgb(101, 216, 7);
+    background-color: rgb(13, 102, 219);
+}
+
+#parent #one:nth-child(1){
+    grid-area: one;
+}
+
+#parent #two:nth-child(2){
+    grid-area: two;
+}
+
+#parent #three:nth-child(3){
+    grid-area:three;
+}
+
+#parent #four:nth-child(4){
+    grid-area: four;
+}
+
+#parent #five:nth-child(5){
+    grid-area: five;
+}
+
+#parent #six:nth-child(6){
+    grid-area: six;
+}
+
+#parent #seven:nth-child(7){
+    grid-area: seven;
+}
+
+ 
+@media screen and (max-width:900px) {
+    #parent{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "one"
+                            "two"
+                            "three"
+                            "four"
+                            "five"
+                            "six"
+                            "seven";
+    }
+    
+}

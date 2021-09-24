@@ -1,0 +1,19 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+
+}
+
+#b_1{
+    text-align: center;
+    margin-top: 10%;
+    background-color:rgb(238, 196, 8);
+    color:rgb(177, 45, 22);
+    border-radius: 10%;
+}
+
+#s_1{
+    color: teal;
+    background-color: tomato;
+}

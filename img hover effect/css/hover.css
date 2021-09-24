@@ -1,0 +1,113 @@
+.title{
+    font-family:sans-serif;
+    color: rgb(253, 42, 14);
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    width:300px ;
+    height:200px ;
+    display: inline-block;
+
+}
+.image{
+    display: block;
+    width: 300px;
+    height: 200px;
+
+}
+.overlay{
+    position: absolute;
+    transition:all .3s ease;
+    opacity: 0;
+    background: rgb(21, 134, 187);
+}
+
+.container:hover .overlay{
+    opacity:1;
+}
+.text{
+    color: rgb(200, 255, 0);
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 5vw;
+
+}
+
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: chocolate;
+
+}
+.overlayRight{
+    height: 100%;
+    width:0 ;
+    top: 0;
+    right: 0;
+    background: chocolate;
+}
+.overlaytop{
+    height:0;
+    width:100%;
+    top: 0;
+    right: 0;
+    background: chocolate;
+}
+
+.overlaybottom{
+    height:0;
+    bottom: 0;
+    width:100%;
+    left: 0;
+    background: chocolate;
+}
+
+.overlaycross{
+    height:0;
+    width:0;
+    top: 0;
+    left: 0;
+    background: chocolate;
+}
+
+.overlayfade{
+    height:100%;
+    width:100%;
+    top: 0;
+    left: 0;
+    background: rgba(210, 105, 30, 0.616);
+}
+
+
+.container:hover .overlayLeft {
+    width:100% ;
+}
+
+.container:hover .overlayRight{
+    width:100% ;
+}
+
+.container:hover .overlaytop{
+    height: 100%;
+}
+
+.container:hover .overlaybottom{
+    height: 100%;
+}
+
+.container:hover .overlaycross{
+    width: 100%;
+    height: 100%;
+}
+
+.container:hover .overlayfade{
+    width: 100%;
+    height: 100%;
+}

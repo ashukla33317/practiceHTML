@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#navbar{
+    list-style: none;
+    width: 100%;
+    background-color: aqua;
+    color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    padding: 2%;
+    font-size: 20px;
+    overflow: hidden;
+    position:fixed;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    border-left: 2px solid green ;
+    border-right: 2px solid orangered ;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+   
+
+
+}
+
+#HOME{
+    background-image: url(../images/doge1.jpg);
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+h1{
+    color: rgb(19, 204, 250);
+    background-color:rgba(17, 179, 125, 0.925);
+    
+}
+
+p{
+    color: white;
+    background-color: teal;
+}
